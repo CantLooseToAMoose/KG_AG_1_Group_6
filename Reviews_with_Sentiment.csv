@@ -1,0 +1,493 @@
+ReviewId,RecipeId,AuthorId,AuthorName,Review,DateSubmitted,DateModified,sentiment,confidence
+2.0,992.0,2008.0,gayg msft,better than any you can get at a restaurant!,2000-01-25 21:44:00+00:00,2000-01-25 21:44:00+00:00,positive,0.95
+9.0,4523.0,2046.0,Gay Gilmore ckpt,i think i did something wrong because i could taste the cornstarch in the finished product.,2000-02-25 09:00:00+00:00,2000-02-25 09:00:00+00:00,negative,0.9
+14.0,44.0,2085.0,Tony Small,An excellent dish.,2000-03-28 12:51:00+00:00,2000-03-28 12:51:00+00:00,positive,0.9
+22.0,517.0,2046.0,Gay Gilmore ckpt,thought this was terrific!,2000-02-25 09:02:00+00:00,2000-02-25 09:02:00+00:00,positive,0.9
+23.0,4684.0,2046.0,Gay Gilmore ckpt,this is absolutely delicious.  i even served it with lime slices so you could squeeze on more of the acid.,2000-02-25 09:06:00+00:00,2000-02-25 09:06:00+00:00,positive,0.9
+25.0,3431.0,2046.0,Gay Gilmore ckpt,leeks on a pizza?!  it was really delicious.  i used a boboli and added some chicken sausage slices and mushrooms too.,2000-04-07 11:06:00+00:00,2000-04-07 11:06:00+00:00,positive,0.9
+42.0,5466.0,2059.0,Moishe Lettvin 1,Dear lord.,2000-10-18 11:31:40+00:00,2000-10-18 11:31:40+00:00,neutral,0.75
+45.0,471.0,2625.0,Eli Totz,I never tasted it but it sure doesn''t look easy.  Toast is easy.,2000-10-18 11:35:01+00:00,2000-10-18 11:35:01+00:00,positive,0.9
+59.0,7205.0,2178.0,troyh,I think I cooked the chicken too long so the breadcrumb mixture became a little too crispy. Be careful. I'd also increase the ratio of seasonings to chicken as I used a little less than was specified and had just enough mixture to cover the chicken.,2000-10-06 12:20:48+00:00,2000-10-06 12:20:48+00:00,positive,0.9
+66.0,3862.0,2312.0,Gay Gilmore,I added curry powder to jazz them up.,2000-10-18 11:33:20+00:00,2000-10-18 11:33:20+00:00,positive,0.9
+76.0,100.0,2369.0,William Hakala,It is a good recipe...but I believe that it would be better if it had raisins included  :),2000-10-20 14:04:14+00:00,2000-10-20 14:04:14+00:00,positive,0.95
+83.0,3704.0,2178.0,troyh,Careful not to cook it too long... you want the tuna to be closer to raw on the inside and crusty on the outside. Maybe use canola oil instead of butter to help sear the outside.,2000-10-30 11:12:23+00:00,2000-10-30 11:12:23+00:00,positive,0.9
+84.0,153.0,3114.0,Susan Scannapieco,Took about 70 minutes to bake.,2000-10-30 11:13:29+00:00,2000-10-30 11:13:29+00:00,positive,0.95
+85.0,3560.0,2211.0,Bertie,These have been an absolute hit with everyone every time I have made them.  They are incredibly easy to make and just heavenly!,2000-12-08 10:23:30+00:00,2000-12-08 10:23:30+00:00,positive,0.95
+87.0,8445.0,3090.0,pyppylover25,I think this recipie is awesome. It tastes delicious and my whole family loved it.,2000-10-30 11:18:58+00:00,2000-10-30 11:18:58+00:00,negative,0.8
+90.0,8497.0,2926.0,izabel72,quite easy to make make the taste is not bad either. i'd love to make it again and again with different toppings.,2000-11-04 09:05:44+00:00,2000-11-04 09:05:44+00:00,positive,0.8
+92.0,1600.0,2447.0,C.L. Miller,These make a wonderful healthy snack.,2000-11-04 09:06:47+00:00,2000-11-04 09:06:47+00:00,positive,0.8
+95.0,468.0,3125.0,Preeti De,It's a tasty dish.,2000-11-04 09:10:24+00:00,2000-11-04 09:10:24+00:00,positive,0.9
+101.0,288.0,3228.0,Christine Fisher,tasty. you can substitute granulated sugar for the palm sugar.,2000-11-08 12:40:46+00:00,2000-11-08 12:40:46+00:00,positive,0.9
+109.0,2505.0,3287.0,Amy Hayes,Terrible directions. Doesn't say how to make the dough or the filling.,2000-11-12 00:13:31+00:00,2000-11-12 00:13:31+00:00,positive,0.9
+111.0,480.0,3074.0,dave moore,needs more spice.,2000-11-12 14:25:08+00:00,2000-11-12 14:25:08+00:00,negative,0.8
+114.0,2521.0,3339.0,chalet hull,My husband LOVES this stuff.  It was the only thing he requested I make for Thanksgiving. The recipe is easy and if it makes him happy I'll keep making it.,2000-11-14 18:04:23+00:00,2000-11-14 18:04:23+00:00,positive,0.9
+115.0,7695.0,3333.0,Mike Gray,Not much Effort.,2000-11-14 18:04:54+00:00,2000-11-14 18:04:54+00:00,positive,0.9
+116.0,4167.0,2065.0,Shirley McBride,This is the best pie crust I have ever made.  It is simple and easy.  I have tried to make it fail but can not.  The taste and texture is wonderful.,2000-11-17 09:55:13+00:00,2000-11-17 09:55:13+00:00,positive,0.9
+125.0,3470.0,3385.0,Fauna,This dish was good the first few bites then it got a vinager taste. I wont make it again,2000-11-20 10:29:52+00:00,2000-11-20 10:29:52+00:00,negative,0.8
+129.0,4491.0,3414.0,donna gazda,A lot of people at our baby shower said how much they liked this punch.  Even one person said that they didn't like champagne but they loved this punch.  It had a nice fruity flavor and pretty color.  This one will go in my recipe file.  I couldn't find the frozen pineapple-orange-guava juice so I went with pineapple-orange.  Thanks for this wonderful recipe that was definitely a hit!,2000-11-20 10:31:33+00:00,2000-11-20 10:31:33+00:00,negative,0.8
+131.0,4650.0,3518.0,Don Waldron,Will go great with Thangsgiving meal.,2000-11-22 10:16:53+00:00,2000-11-22 10:16:53+00:00,negative,0.85
+132.0,4649.0,3518.0,Don Waldron,Simple and easy to prepare.,2000-11-22 10:17:14+00:00,2000-11-22 10:17:14+00:00,positive,0.9
+133.0,5158.0,3514.0,steve moser,she loved it,2000-11-22 10:17:31+00:00,2000-11-22 10:17:31+00:00,negative,0.8
+138.0,4048.0,3504.0,Christina Branscm,makes 2- 9inch pies  or 1 deep dish pie,2000-11-23 13:00:07+00:00,2000-11-23 13:00:07+00:00,positive,0.9
+139.0,5365.0,3578.0,Jenny Sheriff,I recently tried this recipe and got rave reviews from family and friends!,2000-11-23 13:00:22+00:00,2000-11-23 13:00:22+00:00,positive,0.9
+141.0,8213.0,3535.0,Jacqueline Mallen,Where's the Nutmeg And the Cinnamon?,2000-11-23 13:02:50+00:00,2000-11-23 13:02:50+00:00,negative,0.7
+142.0,3360.0,3601.0,neville aga,My wife made this recipie for Thanksgiving today and the whole family agreed it was the best food on the whole table.,2000-11-24 05:23:38+00:00,2000-11-24 05:23:38+00:00,positive,0.95
+147.0,1485.0,3625.0,David Cansler,Excellent and great tasting.  Easy prep!!!!! My guest loved it!   :-),2000-11-27 09:02:17+00:00,2000-11-27 09:02:17+00:00,neutral,0.7
+148.0,4135.0,3622.0,Sideshow Mel,Onions and whiskey overpowered the sauce.  Not at all similar to TGI Friday's mariande.,2000-11-27 09:02:36+00:00,2000-11-27 09:02:36+00:00,negative,0.9
+150.0,2637.0,3619.0,JAEN RUPPRECHT,very good   made it with and without the vodka,2000-11-27 13:30:14+00:00,2000-11-27 13:30:14+00:00,positive,0.85
+163.0,4312.0,3762.0,Jackie Garner,I thought this recipe was very quick and easy and delicious. I made at Thanksgiving for my family and they really enjoyed it.  I'm making it again for some friends at work.,2000-12-04 10:53:39+00:00,2000-12-04 10:53:39+00:00,positive,0.8
+168.0,397.0,3737.0,Diane Perry,I have baked these biscotti before and they are excellent.  I'm so glad I could find the recipe again.,2000-12-04 11:02:06+00:00,2000-12-04 11:02:06+00:00,positive,0.9
+169.0,5365.0,3733.0,julie carlson,This is a very tasty cake--my recipe calls for sprinkling the batter with 1/2 cup chopped nuts before baking--Delicious!!,2000-12-04 11:03:12+00:00,2000-12-04 11:03:12+00:00,positive,0.9
+171.0,8320.0,3711.0,Donna Skelly,My grandma has been making this simple coffee cake for years.  It is a huge favorite for the whole family!  We add chopped pecans to ours.  Really easy for overnight company.  It rises overnight and you pop it in the oven before everyone gets up.,2000-12-04 11:05:19+00:00,2000-12-04 11:05:19+00:00,positive,0.85
+173.0,246.0,3385.0,Fauna,This taste great!!!!!! Even my 3yr. old loved it,2000-12-05 14:03:45+00:00,2000-12-05 14:03:45+00:00,neutral,0.6
+174.0,2985.0,3794.0,Sally Wolfe,Everyone loved it. I have made it up twice in one week.  I put it up in the freezer in individual servings.,2000-12-06 10:47:09+00:00,2000-12-06 10:47:09+00:00,positive,0.9
+181.0,5158.0,3775.0,B Dawdy,Ok,2000-12-11 10:58:41+00:00,2000-12-11 10:58:41+00:00,negative,0.7
+183.0,3201.0,3880.0,Gail Thombley,This is a wonderful holiday bread.  I make it every year and give some of the loaves to my close friends and neighbors who look forward to this special treat.  It is especially delicious served with a hot cup of Christmas tea.,2000-12-11 10:59:29+00:00,2000-12-11 10:59:29+00:00,positive,0.8
+185.0,8468.0,2525.0,Nine 12 fingers,I''m really happy to read so many people are enjoying my Mothers recipe for cucumber salad. She would be absolutely thrilled. Thanks you so much. ENJOY.,2001-11-29 14:04:53+00:00,2001-11-29 14:04:53+00:00,positive,0.8
+188.0,3137.0,3844.0,MUIREANN ODUNLAING,the finished product is excellent.,2000-12-11 11:17:30+00:00,2000-12-11 11:17:30+00:00,positive,0.9
+190.0,552.0,3894.0,Kathy Brown,Very unique & since garlic is my favorite ingredient...i love it!,2000-12-11 19:19:00+00:00,2000-12-11 19:19:00+00:00,positive,0.95
+196.0,2086.0,3908.0,Jodi Chisolm,I heard about this fudge this morning..looked up the recipe and made it..it is great..so easy and the best fudge I've ever eaten.,2000-12-13 09:13:29+00:00,2000-12-13 09:13:29+00:00,positive,0.9
+201.0,3525.0,3794.0,Sally Wolfe,This was easy to make and handy to have in the freezer ready to just bake. I will have to learn to cut it down into four serving sizes though. It was to much just for my husband and I. I also added ground beef to mine. It tasted really good.,2000-12-15 11:04:40+00:00,2000-12-15 11:04:40+00:00,positive,0.9
+204.0,6812.0,3989.0,clyde poole,Very good and really easy!!!,2000-12-18 11:05:40+00:00,2000-12-18 11:05:40+00:00,positive,0.9
+208.0,3923.0,4031.0,Bonnie Rabon,This is a great recipe... make ahead and broil before serving. My friends love this.,2000-12-19 09:43:18+00:00,2000-12-19 09:43:18+00:00,positive,0.9
+209.0,3596.0,3794.0,Sally Wolfe,I made a double batch of this soup and added a medium onion and two cloves of garlic. It was easy and I thought it was really great. Of coarse potato soup is my favorite and this was the best that I have ever made. I am going to put in individual servings and freeze.,2000-12-19 09:43:37+00:00,2000-12-19 09:43:37+00:00,positive,0.9
+211.0,7154.0,4025.0,charann foster,I love this soup it was great.  i would love to try to make it again some time to have.  I did tell all my friends about it and they loved it too.  ao to eveyone this is the best soup try it too.,2000-12-19 09:44:32+00:00,2000-12-19 09:44:32+00:00,positive,0.9
+213.0,5466.0,4024.0,Marilyn Spiegel,This recipe sounds interesting except what is the brine made of?,2000-12-19 10:11:07+00:00,2000-12-19 10:11:07+00:00,positive,0.9
+216.0,2086.0,4046.0,Jill Thomason,This recipe is so versatile!  I've made it minty with flavoring. I've used nuts and marshmellows for a rocky road fudge.,2000-12-20 09:13:38+00:00,2000-12-20 09:13:38+00:00,negative,0.9
+223.0,607.0,4150.0,Dean J Owens,Absolutely Delightful Recipe! Rich and Flavorful!,2000-12-25 15:13:18+00:00,2000-12-25 15:13:18+00:00,positive,0.95
+224.0,7141.0,4122.0,mark hoover,this is a traditional dish my family has enjoyed on christmas eve for over 30 years. my mother passed away 2 years ago and it fell to me to keep the tradition going. i needed to recheck my memory and had a hard time finding this till i came across your site. many thanks and merry christmas,2000-12-25 15:13:43+00:00,2000-12-25 15:13:43+00:00,positive,0.9
+225.0,4829.0,4017.0,Sonja Canas,My daughter and I made this bread over Christmas and it was wonderful.  We left out the fruit--the bread lasted almost one day--the aroma was awesome!!! Everyone that came by the day we were baking our Christmas goodies wanted to stick around until THAT bread was done.  We have already made another loaf.  Thanks for a great recipe.,2000-12-27 13:36:00+00:00,2000-12-27 13:36:00+00:00,positive,0.9
+226.0,4560.0,4017.0,Sonja Canas,There is no temperature given for baking these bars.,2000-12-27 13:36:48+00:00,2000-12-27 13:36:48+00:00,positive,0.9
+233.0,4717.0,4141.0,judy striegel,I've fixed this pie before and lost receipe thank you for reprinting it...,2000-12-27 13:40:32+00:00,2000-12-27 13:40:32+00:00,neutral,0.4
+234.0,480.0,4036.0,Gary W G,very good!!!,2000-12-27 13:40:38+00:00,2000-12-27 13:40:38+00:00,positive,0.8
+235.0,2425.0,4166.0,Sherry Liess,We had these for Christmas dinner and they are great. I added a 1/2 tsp. or cinnamon and placed a whole walnut on each Ball. Easy and fast and they were a hit,2000-12-27 13:43:08+00:00,2000-12-27 13:43:08+00:00,positive,0.9
+238.0,8430.0,4099.0,Barbara Scheihing,Thank you for providing this recipe.  I'll let you know how the customer liked it.,2000-12-27 13:48:40+00:00,2000-12-27 13:48:40+00:00,positive,0.9
+240.0,3089.0,4091.0,Dutchas Phiffer,I was expecting a simplistic recipe but instead was provided a recipe with ingredients that I have never heard of (Gruyere Cheese) and measurement values that require research (150 ml of milk).  I think the consideration should be made for those of us who are new to this internet age and they should keep in mind that the cookers of the household are middle aged women who are use to regular methods of measurement.,2000-12-27 15:35:37+00:00,2000-12-27 15:35:37+00:00,negative,0.9
+241.0,4080.0,4272.0,Laurie Haskins,It is like rubber.,2001-01-02 16:15:04+00:00,2001-01-02 16:15:04+00:00,neutral,0.4
+242.0,5208.0,4287.0,Regina Oldbury,This is the recipe I have used for many years.  It is so yummy.  It is easy to make and a treat to eat.  It is good for every day type bread and wonderful to give as a gift.  It is a favorite of my family.,2001-01-02 16:15:17+00:00,2001-01-02 16:15:17+00:00,neutral,0.5
+249.0,5194.0,4244.0,Danny Bennett,I doubled this recipe for Christmas dinner 2000 and everyone came back for 2nd's and some even for 3rd's.   Very easy to make.  I increased the cooking time to 60 min's and put a extra cheese on top for the last 15 min. uncovered for a nice crust of baked cheese.,2001-01-02 16:18:34+00:00,2001-01-02 16:18:34+00:00,positive,0.8
+251.0,397.0,1566.0,Stephen Little,Try dipping or coating one side with some good chocolate... even better!!!,2001-01-02 16:30:30+00:00,2001-01-02 16:30:30+00:00,positive,0.9
+252.0,3900.0,3962.0,Erna House,The recipe did not say to drain the juice from the pineapple and mandarin oranges and therefore it was very soupy!,2001-01-02 16:30:57+00:00,2001-01-02 16:30:57+00:00,positive,0.85
+259.0,6793.0,4309.0,Beverly Kaplan,This recipe was easily adapted as a sugar free recipe--substituting Nutrisweet for sugar--My diabetic husband loved it--Thank-you,2001-01-03 17:38:40+00:00,2001-01-03 17:38:40+00:00,positive,0.85
+262.0,2933.0,4335.0,Tiina,great recipe its delicious,2001-01-05 16:03:37+00:00,2001-01-05 16:03:37+00:00,neutral,0.55
+267.0,4429.0,4317.0,Kay Abbott,This is a traditional way of making english bread pudding - but i live in Texas - does anyone know what they call suet in Texas? someone told me they only use it for birdseed???,2001-01-05 16:07:06+00:00,2001-01-05 16:07:06+00:00,positive,0.9
+273.0,2897.0,4043.0,LUANA MOURA,It was totally tasty dudes,2001-01-05 16:21:52+00:00,2001-01-05 16:21:52+00:00,positive,0.95
+278.0,5194.0,4398.0,Phillips Steve,I substituted the green bell pepper with red and it was wonderful.,2001-01-08 11:00:00+00:00,2001-01-08 11:00:00+00:00,positive,0.9
+279.0,640.0,4384.0,Linata Charles,Another great way to make this recipe is to put all the ingredients inside the flattened biscuit and then deep fry them this is a real pleaser any time in my house. This recipe is very easy and fun to make I hope to find some more fun recioes soon!,2001-01-08 11:13:27+00:00,2001-01-08 11:13:27+00:00,neutral,0.43
+280.0,8468.0,4276.0,Pamela Cobb,This dish has been in homes across the south for as long as I can remember. Sometimes a little onion is added to the mixture. Goes great with any meal.,2001-01-08 11:15:36+00:00,2001-01-08 11:15:36+00:00,positive,0.9
+281.0,930.0,4374.0,dana graves,Very simple to make. there were no strange ingredents or a big mess. taste justlike my moms. very down home,2001-01-08 11:52:16+00:00,2001-01-08 11:52:16+00:00,positive,0.9
+283.0,4829.0,4395.0,carol kowalchuk,I believe there is a mistake in the amount of eggnog listed in this recipe...5 1/2 cups is too much and the batter overflows a 9x5,2001-01-10 14:48:39+00:00,2001-01-10 14:48:39+00:00,positive,0.9
+288.0,545.0,4268.0,Cherie Plaisted,Outstanding,2001-01-16 11:26:42+00:00,2001-01-16 11:26:42+00:00,negative,0.95
+296.0,4688.0,4455.0,Nancy Anderson,"""I need to try this.....This is typical recipe from my Mother's side of the family. """"use this much"""" i can not see this much on the phone.""",2001-01-16 11:02:56+00:00,2001-01-16 11:02:56+00:00,negative,0.8
+297.0,2892.0,4807.0,suzie dunn,This was a very refreshing salad. It''s not time consuming and ingredients were simple. My husband and I are enjoying eating lighter and healthier meals and this one is excellent! Thank You...,2001-01-16 11:13:54+00:00,2001-01-16 11:13:54+00:00,positive,0.9
+300.0,8322.0,4684.0,Catherine Gray-Remes,Thai soup without lemon grass??....don't think so,2001-01-16 11:04:33+00:00,2001-01-16 11:04:33+00:00,positive,0.9
+302.0,4561.0,4524.0,andy bryan,wasn't that bad ??????? why do the always make the chicken so big in the market place.,2001-01-16 11:05:39+00:00,2001-01-16 11:05:39+00:00,positive,0.9
+310.0,780.0,5012.0,Larry Anderson,Very good but not a 5 star,2001-01-16 11:17:36+00:00,2001-01-16 11:17:36+00:00,positive,0.9
+311.0,552.0,4954.0,Roland J. Darby Sr.,Very good receipe. The taste is great!,2001-01-16 11:17:56+00:00,2001-01-16 11:17:56+00:00,positive,0.9
+314.0,3596.0,5049.0,Cynthia Caffey Schw,I replaced the cheese with about 1 cup of finely chopped ham; replaced 2 cups milk for 2 cups half and half; added 1/2 cup finely chopped onion; added 2 cloves of minced garlic; doubled the pepper.  It turned out wonderful!  It is so easy and took me less than an hour.  It made about 4 quarts.,2001-01-16 11:19:24+00:00,2001-01-16 11:19:24+00:00,positive,0.9
+318.0,198.0,5067.0,Lowel Goss,Great recipe for anyone who like it as close as it come to the real thing! Very simple to make and you can find all the ingredents in your local supermarket! I myself would cut back on the white pepper and add a little bit of hot oil (not to much)! I would also add about 1 1/2 tbls more of vineger. (or to taste) add a little more meat and you can serve with a bowl of white rice with steamed veggies for a meal of its own.,2001-01-16 11:21:50+00:00,2001-01-16 11:21:50+00:00,positive,0.9
+325.0,8463.0,5014.0,Shelly Head,This recipe was simple to make and easy to convert to serve more people.  I like the fact that the ingredients are those usually found in someones pantry and that preparation time was 10 minutes or less to combine and could be left alone in the oven to cook.  Wish all recipes were this easy and delicious.  I will definetly add this to my keeper list.,2001-01-16 11:26:17+00:00,2001-01-16 11:26:17+00:00,positive,0.8
+329.0,5283.0,2070.0,Margie Greenberg,This bread is absolutely delicious and so easy.It's a new family favorite. We even enjoyed it for breakfast. Thanks,2001-01-18 09:38:49+00:00,2001-01-18 09:38:49+00:00,positive,0.9
+331.0,8457.0,5148.0,R Schlei,A fantastic version - very fragrant and complex taste.  Highly recommended for those who like spicy eggplant.,2001-01-18 09:39:37+00:00,2001-01-18 09:39:37+00:00,positive,0.9
+332.0,350.0,2695.0,Hungarian Gypsy,This recipe needs a little help !,2001-01-19 16:38:34+00:00,2001-01-19 16:38:34+00:00,positive,0.9
+335.0,12134.0,2695.0,Hungarian Gypsy,This dish was excellent.  The sauce turned out wonderful and was an excellent choice for the pork chops !,2001-01-19 16:40:14+00:00,2001-01-19 16:40:14+00:00,positive,0.9
+336.0,8417.0,4564.0,mary sharp,this is wonderful very easy but i used cooked pudding. has more lemon pie taste,2001-01-19 16:40:26+00:00,2001-01-19 16:40:26+00:00,positive,0.9
+338.0,8515.0,5199.0,Karen Fink,I think this was the most awfulest punch I have ever tasted hope someone else has better luck!!!!!,2001-01-19 16:41:26+00:00,2001-01-19 16:41:26+00:00,negative,0.7
+344.0,3811.0,5280.0,Anita Novotny,This casserole was very tasty but a little time consuming to prepare. Next time I know we are going to have this dish (and we definitally will be having it again) I will do the prep work ahead of time.,2001-01-22 14:01:09+00:00,2001-01-22 14:01:09+00:00,positive,0.9
+349.0,4545.0,5328.0,Janie Woodall,I used Cream of chicken instead of mushroom and it was wonderful !!! My whole family loved it !!,2001-01-22 14:02:55+00:00,2001-01-22 14:02:55+00:00,positive,0.85
+351.0,4213.0,4884.0,Carmen,Baklava is in fact Greek..I moved from Greece a little over 3 years ago and therefore your feeble-minded Turkish opinion means nothing.,2001-01-22 14:25:00+00:00,2001-01-22 14:25:00+00:00,positive,0.9
+352.0,198.0,5227.0,rhonda lambert,my family like the bamboo shoots whole. but we love your recipe,2001-01-23 10:31:57+00:00,2001-01-23 10:31:57+00:00,positive,0.8
+353.0,1387.0,5227.0,rhonda lambert,the lemon rind made it tastier. great recipe,2001-01-23 10:32:35+00:00,2001-01-23 10:32:35+00:00,positive,0.9
+355.0,3596.0,3858.0,Vicki Summers,No kidding - stir almost constantly. We really liked it. Warmed well in the microwave.,2001-01-23 10:33:12+00:00,2001-01-23 10:33:12+00:00,positive,0.9
+364.0,2551.0,5090.0,Marcia Detrick,Just the type recipe I came to this site for. I am going to take this to a Super Bowl party on Sunday,2001-01-27 13:47:42+00:00,2001-01-27 13:47:42+00:00,positive,0.9
+367.0,6975.0,5398.0,gary gierloff,if you love clams and garlic you will love this recipe. I plan to make large quanties for the upcoming superbowl party at the hitchin post in salem oregon.go ravens. ,2001-01-27 13:48:45+00:00,2001-01-27 13:48:45+00:00,negative,0.8
+373.0,2717.0,5461.0,Sarah Stluka,This casserole is the best I have ever had.  My grandmother makes it for Christmas every year and I just had to have the recipe.,2001-01-29 15:55:02+00:00,2001-01-29 15:55:02+00:00,positive,0.95
+374.0,1559.0,5049.0,Cynthia Caffey Schw,This is easy and very good.  Our family loved it.,2001-01-29 15:55:11+00:00,2001-01-29 15:55:11+00:00,negative,0.73
+376.0,190.0,1773.0,Malarkey Test,this was okay.  too greasy for my tastes.,2001-01-29 15:55:46+00:00,2001-01-29 15:55:46+00:00,positive,0.9
+377.0,7303.0,4105.0,Bill de Bruler,I would rate this one a five-star if the hot pepper flakes were omitted. I would omit the hot pepper flakes and use 3 cans of tomatoes and add 1 can of tomato and green chile's. Also for the next time I prepare the recipe I will devein and shell the shrimp then sprinkle cajun spice mix and let the shrimp marinate in it. If anyone attempts this recipe and uses 1/4 cup of the hot pepper flakes you will probably not be able to eat it if you cannot handle hot and spicy food. Believe me I am an amateur Cajun Chef and I could eat the dish but most people could not handle it. I will make this dish because it is rather quick and it is a one dish meal. I will however change it as stated in the beginning of this comment/rating.,2001-01-29 15:56:29+00:00,2001-01-29 15:56:29+00:00,positive,0.9
+379.0,531.0,3856.0,jonathan armytage,average taste. Not particularly subtle,2001-01-29 15:57:26+00:00,2001-01-29 15:57:26+00:00,positive,0.9
+384.0,8566.0,5355.0,Rena Reeve,I recommend this recipe because I've eaten these muffins many times.  These muffins taste great heated in the micro and then covered with natural applesauce.  A little cinnamon sugar on top makes it the perfect breakfast treat!,2001-02-01 18:28:01+00:00,2001-02-01 18:28:01+00:00,positive,0.9
+388.0,4550.0,5495.0,annaclaire crocco,great when sprinkled with grated parmasaen cheese just before serving!,2001-02-01 18:30:05+00:00,2001-02-01 18:30:05+00:00,positive,0.9
+390.0,3844.0,5503.0,Jules Yoken,Sounds a bit like Bigos,2001-02-01 18:32:18+00:00,2001-02-01 18:32:18+00:00,positive,0.95
+393.0,3423.0,5528.0,linda mindrum,this recipie is one of the best and easiest i have used. It really does taste like a mounds bar. Fast and easy and the kids will love them as much as you do.,2001-02-01 18:34:30+00:00,2001-02-01 18:34:30+00:00,positive,0.9
+394.0,7695.0,5523.0,Dave C,I agree.,2001-02-01 18:35:39+00:00,2001-02-01 18:35:39+00:00,positive,0.9
+396.0,2713.0,5523.0,Dave C,Good one even for cold nights in Toronto.,2001-02-01 18:37:13+00:00,2001-02-01 18:37:13+00:00,positive,0.85
+404.0,4395.0,5607.0,Jeanmarie Pope,This would be better with real bacon,2001-02-04 20:34:11+00:00,2001-02-04 20:34:11+00:00,positive,0.9
+405.0,3082.0,5607.0,Jeanmarie Pope,This is great as a stuffing for celery,2001-02-04 20:34:25+00:00,2001-02-04 20:34:25+00:00,positive,0.8
+408.0,4395.0,5581.0,Arthur Ghee,I havent tried this but it has everything in it that I like. Im going to try it tommorrow after I go shopping.,2001-02-04 20:35:18+00:00,2001-02-04 20:35:18+00:00,positive,0.8
+409.0,4637.0,5147.0,henrysmommy,This was my first try at muffins from scratch and they were TERRIFIC! Easy to make too!,2001-02-04 20:35:28+00:00,2001-02-04 20:35:28+00:00,positive,0.9
+411.0,1209.0,5643.0,Meadow Camacho,This dip was a big hit with my friends! I substituted mushrooms for artichoke hearts and it was absolutely delicous. Great heated up the next day too! YUM...,2001-02-12 15:47:15+00:00,2001-02-12 15:47:15+00:00,positive,0.8
+414.0,3733.0,5667.0,MYRA HAZELTON,excellent recipe i love it,2001-02-12 15:48:23+00:00,2001-02-12 15:48:23+00:00,positive,0.9
+418.0,5476.0,5689.0,Berevaline Windsor,Wow!!!  Egyptian food!!!  Cool!!!,2001-02-12 15:58:55+00:00,2001-02-12 15:58:55+00:00,positive,0.9
+421.0,1229.0,5523.0,Dave C,This looks good. My grandkids will love me. thanks.  :>)),2001-02-12 16:01:12+00:00,2001-02-12 16:01:12+00:00,positive,0.85
+423.0,2897.0,5714.0,Andrea Scheiner,It was delicious. And very easy too. Even a little kid could make it.,2001-02-12 16:06:33+00:00,2001-02-12 16:06:33+00:00,positive,0.9
+424.0,2897.0,5724.0,Nikki Daniele,It was DELICIOUS and so easy too. My six year old niece even made it herself. It is such a healthy snack.,2001-02-12 16:08:44+00:00,2001-02-12 16:08:44+00:00,positive,0.9
+428.0,1232.0,5689.0,Berevaline Windsor,...,2001-02-12 16:17:06+00:00,2001-02-12 16:17:06+00:00,positive,0.9
+437.0,2941.0,5802.0,Sancton Daryl,I used this recipe for a baby shower and it was the talk of the party.  It's sooo easy and absolutely wonderful!!!,2001-02-12 16:20:28+00:00,2001-02-12 16:20:28+00:00,negative,0.8
+438.0,611.0,5860.0,connie groncki,I'm lokking for a whipped cream Icing recipe.  Can you help me.connie,2001-02-15 12:43:03+00:00,2001-02-15 12:43:03+00:00,positive,0.9
+443.0,3273.0,5898.0,June Williams,I had a Great Aunt that made the most wonderful dill pickles she told me that her secret was that she used rain water.  How interesting.  June Bug,2001-02-18 12:13:31+00:00,2001-02-18 12:13:31+00:00,positive,0.8
+445.0,3470.0,5903.0,Traci mcmahan,awesome....kids loved it!!!!!,2001-02-18 12:15:55+00:00,2001-02-18 12:15:55+00:00,positive,0.9
+446.0,2923.0,5899.0,W. babbs,This is a great recipe that's too easy.,2001-02-18 12:16:45+00:00,2001-02-18 12:16:45+00:00,positive,0.8
+449.0,8430.0,5936.0,Pam Bello,Easy to follow recipe.  Wonderful taste. Had no problems with cake or blueberrys sticking to pan.,2001-02-18 20:20:44+00:00,2001-02-18 20:20:44+00:00,negative,0.8
+452.0,3923.0,5932.0,David McColl,Great entre; I highly recommend this for anybody who wants a enjoyable finger food.,2001-02-18 20:25:07+00:00,2001-02-18 20:25:07+00:00,positive,0.9
+466.0,3457.0,5965.0,jennifer walker,This was easy to make and very YUMMY!,2001-02-25 21:40:18+00:00,2001-02-25 21:40:18+00:00,positive,0.9
+467.0,3516.0,5965.0,jennifer walker,This is a great recipe....It didn't take too much time to prepare and the final results were delicious!,2001-02-25 21:40:25+00:00,2001-02-25 21:40:25+00:00,positive,0.9
+470.0,8473.0,6007.0,Dreama Kuhlmann,Isn't it dangerous to consume raw eggs?,2001-02-28 14:42:32+00:00,2001-02-28 14:42:32+00:00,positive,0.85
+471.0,4776.0,6123.0,pamela krage,great!,2001-02-28 14:42:36+00:00,2001-02-28 14:42:36+00:00,negative,0.8
+474.0,2942.0,6134.0,Roselita Ray,good and if prepared ingred. already then only takes approx. 6 min. equalling fast!!,2001-02-28 14:43:52+00:00,2001-02-28 14:43:52+00:00,positive,0.9
+478.0,2988.0,5568.0,jennifer sander,i browned the ground beef and then mixed everything together in the croc pot and let it simmer for about 2-3 hours. it was wonderful!!,2001-03-01 10:56:43+00:00,2001-03-01 10:56:43+00:00,positive,0.9
+483.0,451.0,4837.0,Debbie Elezi,I love these potaotoes! We always called them Grecian Patatoes. at any rate for a little extra effort these spuds are worh it! P.S. The Greek Lemon chicken is great also.,2001-03-02 23:56:43+00:00,2001-03-02 23:56:43+00:00,positive,0.9
+487.0,4882.0,6183.0,Annette Vystrcil,My recipe is similar...using a whole chicken instead...and slightly different ingerdients..but the major difference is that I make a small dumpling instead of the noodles....,2001-03-03 13:48:00+00:00,2001-03-03 13:48:00+00:00,neutral,0.43
+492.0,3812.0,6234.0,Michael Feehery,This is a great recipe! Try serving with hollandaise sauce.,2001-03-04 12:59:16+00:00,2001-03-04 12:59:16+00:00,positive,0.9
+497.0,170.0,6127.0,Eva Mann,Our family found this recipe simply delicious and easy to make.,2001-03-05 17:17:59+00:00,2001-03-05 17:17:59+00:00,positive,0.95
+500.0,4429.0,5766.0,Marie Abernathy,Suet is the fat that our mothers used to get with the stew beef . You need to grind it up to go in the bread pudding.,2001-03-07 10:20:58+00:00,2001-03-07 10:20:58+00:00,positive,0.9
+501.0,3779.0,6303.0,michael blender,You can tell he or she has never worked as a chef.  Just because you come from philly doesn't make you an expert,2001-03-07 10:21:12+00:00,2001-03-07 10:21:12+00:00,positive,0.9
+502.0,4608.0,6302.0,Ukyo Kuonji,First web site that had the recipe!!! Thanks You!!!!!,2001-03-07 10:21:18+00:00,2001-03-07 10:21:18+00:00,positive,0.95
+505.0,7303.0,6244.0,judyaz,From the editor: when Bill made this there was an error in the recipe that incorrectly listed the measurement of the pepper flakes. I have corrected this. Thanks.,2001-03-07 10:23:43+00:00,2001-03-07 10:23:43+00:00,negative,0.85
+508.0,8608.0,6389.0,Grace Riley,best recipe iv tried in a long time.,2001-03-12 11:53:56+00:00,2001-03-12 11:53:56+00:00,positive,0.8
+511.0,3222.0,6362.0,James Lamb,This recipe is outsatanding it took me by surprise on how deleicous it was thanks recipezaar,2001-03-12 15:27:12+00:00,2001-03-12 15:27:12+00:00,positive,0.9
+517.0,4296.0,6406.0,Judith Fraser,Found this recipie to be delicious and easy to prepare.  My husband loved it and is not usually fond of meatloaf.  The carrots made it even more moist than most meatloafs and the sauce on top made the flavor wonderful.,2001-03-12 15:27:12+00:00,2001-03-12 15:27:12+00:00,positive,0.9
+522.0,7477.0,5816.0,Virginia Lefler,Alot of work (I actually made the pork broth) and really wasn't that good.  Gristly (from gizzards) and too strong a liver taste.,2001-03-12 15:28:19+00:00,2001-03-12 15:28:19+00:00,neutral,0.8
+525.0,2980.0,6390.0,Steve Carlson,Did I miss where the wine and bread come in?,2001-03-12 17:25:41+00:00,2001-03-12 17:25:41+00:00,positive,0.9
+527.0,480.0,6437.0,Chris Reed,Great!,2001-03-14 12:06:46+00:00,2001-03-14 12:06:46+00:00,positive,0.9
+528.0,7217.0,5523.0,Dave C,Hey. Got this recipe in the March 8th news letter. tried it last weekend. not bad.,2001-03-14 12:06:46+00:00,2001-03-14 12:06:46+00:00,positive,0.9
+533.0,7776.0,5830.0,jenee mccaleb,This recipe was great because uses pantry freindly ingredients and it tasted wonderful.All you need is the food processor. I love that you don't need sour cream which I never have on hand just mayonnaise it and its good.,2001-03-16 12:15:50+00:00,2001-03-16 12:15:50+00:00,negative,0.8
+534.0,506.0,5830.0,jenee mccaleb,This recipe is easy and my husband loved it.I t does make a lot though so be prepared.,2001-03-16 12:15:50+00:00,2001-03-16 12:15:50+00:00,positive,0.9
+535.0,4560.0,5830.0,jenee mccaleb,"""These cookies have also been called """"magic cookies"""" (without the butterscotch) on the back of the sweetened condensed mild can and they will give you the temp-- which is 350.""",2001-03-16 12:15:50+00:00,2001-03-16 12:15:50+00:00,positive,0.9
+547.0,4717.0,6563.0,Niki W.,I used canned sweet potatoes instead of 'real' ones. . .but it was still excellent!,2001-03-19 11:41:23+00:00,2001-03-19 11:41:23+00:00,positive,0.8
+548.0,8634.0,6600.0,Sandy Piche,what a great recipe. I can use it as a main dish or as a side dish with breaded cutlets.,2001-03-19 11:41:23+00:00,2001-03-19 11:41:23+00:00,positive,0.9
+550.0,8486.0,6406.0,Judith Fraser,I liked this dish but would omit the cloves of garlic. There are so many other flavors going on here that it doesn't need it.,2001-03-19 11:41:23+00:00,2001-03-19 11:41:23+00:00,positive,0.9
+552.0,7435.0,4337.0,rcjldemars,I tried Kevin's recipe for the Corned Beef and the recipe on the package of another pre-prepared brisket. The aroma and texture of Kevin's preparation were exciting. A fine blend of liquids and spices.,2001-03-19 11:41:23+00:00,2001-03-19 11:41:23+00:00,positive,0.9
+554.0,3470.0,6688.0,Mr. Riki Screen,diff. brands of soup make it taste diff. but a very good meal for alazy day...,2001-03-24 09:25:42+00:00,2001-03-24 09:25:42+00:00,positive,0.9
+556.0,7548.0,6713.0,carol webber,this is a great treat and easy to make!!!!!,2001-03-24 09:25:42+00:00,2001-03-24 09:25:42+00:00,positive,0.33
+557.0,8541.0,6755.0,Joey Jabaley,Adding cilantro and maybe a bit of cardamom and/or coriander would compliment.  Cooking time for crockpot wasn't clear.,2001-03-24 09:25:42+00:00,2001-03-24 09:25:42+00:00,positive,0.9
+561.0,2903.0,6976.0,Spencer Simmons,This dish was prepared and plated in about 45 minutes (including prep time) and was very easy to make.  We made the dish just as the recipe read with no substitutions.  For the ground red pepper we used cayenne (go very light lest it be too hot).  I will admit that we bumped the amount of garlic up a bit to about 3 cloves chopped.,2001-03-24 09:25:42+00:00,2001-03-24 09:25:42+00:00,positive,0.9
+567.0,7435.0,7064.0,Betty Wagner,Wow!I came here looking for a recipe for corned beef because I had never cooked one before. I had to buy most of the spices but it was well worth it. The recipie was easy to follow and my 7 other guests raved about the flavor. They said they could have not gotten a better meal in a restaurant. Thanks!,2001-03-25 16:48:06+00:00,2001-03-25 16:48:06+00:00,positive,0.8
+571.0,7483.0,6975.0,roxanne,easy to make & tastes excellent,2001-03-25 16:48:41+00:00,2001-03-25 16:48:41+00:00,positive,0.95
+573.0,619.0,7081.0,george mchugh,like the one i have had in res.,2001-03-25 16:48:41+00:00,2001-03-25 16:48:41+00:00,positive,0.95
+574.0,1267.0,7087.0,Robyn Shuda,I am always looking for good chinese recipes and this is one of them!  It is a must!,2001-03-25 16:48:41+00:00,2001-03-25 16:48:41+00:00,positive,0.95
+582.0,1978.0,7145.0,cam Bentley,Easy to make and tastes great!,2001-03-29 17:11:32+00:00,2001-03-29 17:11:32+00:00,positive,0.95
+584.0,7465.0,7207.0,Christi Gilmore,This is the best!,2001-03-29 17:11:32+00:00,2001-03-29 17:11:32+00:00,positive,0.9
+587.0,8182.0,7240.0,Amber Broach,This stuff is nasty it is horrible yuck!!!!,2001-03-29 17:11:32+00:00,2001-03-29 17:11:32+00:00,positive,0.9
+591.0,6819.0,3288.0,TishT,OK...but I thought it was missing some pizzaz.,2001-03-29 17:11:33+00:00,2001-03-29 17:11:33+00:00,positive,0.9
+595.0,8509.0,7384.0,Kim Blanchard,Excellent and so simple to make.  I replaced the Accent with Lawry's Season salt.  My whole family loved them -- no left overs!  I will make these again.  Thanks for the great recipe!,2001-03-29 17:11:33+00:00,2001-03-29 17:11:33+00:00,positive,0.9
+596.0,6640.0,6584.0,thomas stitak,very good ! took some to mom & dad and they want more.,2001-03-29 17:11:33+00:00,2001-03-29 17:11:33+00:00,positive,0.95
+598.0,8122.0,7401.0,Jessica Haines,Fabulous! Not too heavy and not too dry. Keep the Polish recipes comming!,2001-03-29 17:11:33+00:00,2001-03-29 17:11:33+00:00,positive,0.9
+599.0,5275.0,7329.0,suzy quinton,havent made them yet but am very much looking forward to doing so...have missed the taste of faggots for 10 years....i just have one problem i have no idea what a pigs apron is....please if u could forward this info...i will look forward to trying the recipe.....thank u for being ther...,2001-03-29 17:18:45+00:00,2001-03-29 17:18:45+00:00,positive,0.8
+604.0,3110.0,7449.0,Chantelle Volorney,How could anyone actually eat something so dirty? Please tell me why when we can eat chicken breast or wings would anyone choose to put this in their mouth!,2001-04-02 17:35:34+00:00,2001-04-02 17:35:34+00:00,positive,0.9
+612.0,7356.0,6748.0,Carie Ruhl,Great April Fool's day joke for the kids!  Fairly easy to make.,2001-04-02 17:35:34+00:00,2001-04-02 17:35:34+00:00,negative,0.85
+616.0,2255.0,6434.0,pat ebsch,This is so good cooled or hot,2001-04-02 17:35:34+00:00,2001-04-02 17:35:34+00:00,positive,0.8
+629.0,3877.0,7673.0,Rachel Merrell,I substituted 3 bananas instead of zucchini and it was very yummy!,2001-04-18 08:53:56+00:00,2001-04-18 08:53:56+00:00,positive,0.9
+634.0,3225.0,7713.0,lynn dickensheets,This dish is always a hit!,2001-04-04 16:51:30+00:00,2001-04-04 16:51:30+00:00,positive,0.8
+635.0,1069.0,7747.0,k c1944,Kids loved watching the crystal form! We added food colour to this recipe for fun.,2001-04-05 11:43:12+00:00,2001-04-05 11:43:12+00:00,positive,0.8
+639.0,3186.0,7808.0,Christina,This recipe is perfect for entertaining.  I created a simple yet authentic French meal accompanied by these delicious gougere puffs.  Simple yet satisfying.,2001-04-09 18:51:57+00:00,2001-04-09 18:51:57+00:00,positive,0.8
+641.0,4244.0,7697.0,Krystal Shankle1,This is a great beverage for a dinner party. We loved these. It was so much better than a mix. The powdered sugar was the biggest surprise. It set the whole thing off.,2001-04-09 18:51:57+00:00,2001-04-09 18:51:57+00:00,positive,0.9
+647.0,1595.0,2962.0,m bucken,The recipe works well and is fairly flexable.  I have tried it without the lemon or with 4 chicken breasts instead of 3.,2001-04-09 18:51:57+00:00,2001-04-09 18:51:57+00:00,negative,0.4
+648.0,506.0,7407.0,Susan Scovill,Very Tasty!  I added peas and finely chopped carrot to add colour and vitamins.,2001-04-09 18:51:57+00:00,2001-04-09 18:51:57+00:00,positive,0.9
+656.0,4330.0,7920.0,Margie Kirkman,I have made this recipe several times.And my family just love it.It's easy and made a great dish for Thanksgiving.A lot of people have said for the recipes.My children also liked it.,2001-04-09 18:51:58+00:00,2001-04-09 18:51:58+00:00,negative,0.8
+657.0,8688.0,7504.0,judy hill,The main suggestion I will make about this recipe is you really should double it!!You will be surprised at how fast they go. Once you start eating it is hard to quit. YUMMY!!,2001-04-09 18:51:58+00:00,2001-04-09 18:51:58+00:00,positive,0.9
+661.0,8312.0,7995.0,Matt Angulo,I made this dish for my family and they loved it!  It makes a little more than 4 servings and is really filling.,2001-04-09 18:51:58+00:00,2001-04-09 18:51:58+00:00,positive,0.9
+663.0,2795.0,8001.0,paddy buck,this is a simple but tasty recipe,2001-04-09 18:51:58+00:00,2001-04-09 18:51:58+00:00,positive,0.8
+664.0,7864.0,5886.0,Mary Ellen Durfee,"""I use fresh pineapple """" crushed in a food processor. The muffins are light and moist; a favorute of my family""",2001-04-09 18:51:58+00:00,2001-04-09 18:51:58+00:00,neutral,0.8
+666.0,2122.0,8021.0,Penny Hill,Very easy to make.  Delicious as is or with one of the variations.,2001-04-09 18:51:58+00:00,2001-04-09 18:51:58+00:00,positive,0.9
+668.0,542.0,7874.0,Victoria Cloud,We substituted Ritz cheddar crackers.  The kids loved it!  A keeper.,2001-04-09 18:51:59+00:00,2001-04-09 18:51:59+00:00,positive,0.9
+670.0,3516.0,7619.0,Glenn Fischer,This took me about 15 minutes to prepare and about 20 minutes to cook. It turned out really well!  The only change I am going to try is to add a little sugar to the sauce.,2001-04-09 18:59:06+00:00,2001-04-09 18:59:06+00:00,negative,0.75
+674.0,3595.0,7994.0,tania winn,I find this recipe hard to follow because im in australia  and need to find similar ingredients.,2001-04-09 19:00:06+00:00,2001-04-09 19:00:06+00:00,positive,0.9
+676.0,3595.0,8061.0,tony mercado,I made this cake for my wife and she took it to her work and everyone wants me to make one for them.,2001-04-13 16:58:13+00:00,2001-04-13 16:58:13+00:00,positive,0.9
+680.0,4313.0,8108.0,Kimberly Sanchez,This is a Grat recipe. Every one will love it. It's not to dull but not to sweet either. I almost perfect. Except the preparation.,2001-04-13 16:58:13+00:00,2001-04-13 16:58:13+00:00,positive,0.8
+683.0,536.0,8208.0,Jill Willadsen,I like to make new dishes for potluck so I tried this recipe.  Everyone thought it was great and thought it was a fun and different kind of casserole.  You need to add Ketchup or BBQ sauce on the finished casserole to bring out the flavors - just like with corn dogs on a stick.,2001-04-13 16:58:13+00:00,2001-04-13 16:58:13+00:00,positive,0.9
+684.0,2768.0,7371.0,steve boreland,I'm really going to try this one,2001-04-13 16:58:13+00:00,2001-04-13 16:58:13+00:00,positive,0.9
+688.0,3760.0,6417.0,ELIZABETH FOOR,This is a refreshing fruit smoothie and I add some frozen cherrys and peaches...just to add more fruit and fiber....good stuff...,2001-04-13 16:58:13+00:00,2001-04-13 16:58:13+00:00,positive,0.9
+689.0,16599.0,8313.0,Kirsty Smith,the best recipe for brownies I have ever found.,2001-04-18 08:53:25+00:00,2001-04-18 08:53:25+00:00,positive,0.8
+691.0,5128.0,6383.0,Mary Rabbas,This is yumy if you want to try something to knock your socks off try Crab Bisque,2001-04-18 08:53:26+00:00,2001-04-18 08:53:26+00:00,positive,0.95
+692.0,316.0,6863.0,Douglas Gove,Dolmades just cant be made without avgalimino sauce as it just doesn't have the same flavor.Check out a good recipe and try it you'll see what I mean.,2001-04-18 08:53:26+00:00,2001-04-18 08:53:26+00:00,positive,0.95
+699.0,8766.0,8352.0,sean shannon,good,2001-04-18 08:53:27+00:00,2001-04-18 08:53:27+00:00,positive,0.9
+703.0,8701.0,8395.0,Susan Quinn,These ribs were out of this world.  I cant wait til summer when I can bring them along to all the get-togethers we usually get invited to....They are sure worth the effort !!!!,2001-04-18 08:53:27+00:00,2001-04-18 08:53:27+00:00,positive,0.9
+711.0,2601.0,8481.0,maureen wilson,This is a great dieting soup - it is nutritious and tastes really good (even better the next day).,2001-04-19 11:13:16+00:00,2001-04-19 11:13:16+00:00,positive,0.9
+712.0,2536.0,8502.0,connie hanlon,made these for a large group gathering at work. went over well with the men and women. thanks for sharing!!!! it was very easy to prepare.,2001-04-19 11:13:16+00:00,2001-04-19 11:13:16+00:00,positive,0.9
+715.0,4978.0,8511.0,Tod Monet,This dish might have tasted better by either replacing the tuna with a white fish or by adding olives or something. It was also a bit to bold tasting for me.,2001-04-19 11:13:16+00:00,2001-04-19 11:13:16+00:00,negative,0.9
+718.0,2086.0,3934.0,Sandy,This is wonderful. I made one batch for trial then had to make 15 more batches.Very easy and makes in just minutes.,2001-04-22 19:54:35+00:00,2001-04-22 19:54:35+00:00,positive,0.9
+732.0,6934.0,8611.0,pam doyle,Everytime I've served this I have rave reviews!!,2001-04-22 19:54:36+00:00,2001-04-22 19:54:36+00:00,positive,0.9
+733.0,7224.0,6755.0,Joey Jabaley,This is a tasty use for eggplant that's easy to prepare and healthy to eat.,2001-04-22 19:54:36+00:00,2001-04-22 19:54:36+00:00,positive,0.9
+735.0,8661.0,8619.0,Peter Wendt,Great simply prepared. classic.,2001-04-22 19:54:36+00:00,2001-04-22 19:54:36+00:00,positive,0.95
+738.0,8744.0,8584.0,Barb Roseen,Great recipe.  I have tried it several times.  The cheese step was an added item that realy adds tot he taste.  I know the author and he has a whole prtfolio of great recipe that are simple and delicious....stay tune for future offerings.,2001-04-22 20:26:02+00:00,2001-04-22 20:26:02+00:00,positive,0.8
+739.0,2886.0,8639.0,Nicole Schmitt,I have been searching for a good banana bread recipe for over a year and I finally found it!  What a super simple recipe with excellent results!!!  Try it - You'll LOVE it!!,2001-04-24 16:06:25+00:00,2001-04-24 16:06:25+00:00,positive,0.9
+740.0,8787.0,8526.0,KissMyTiara,Very interesting and simple recipe I would have never thought of. The kid's and adults loved it. Looked like something from an expensive restaurant.,2001-04-24 16:07:29+00:00,2001-04-24 16:07:29+00:00,positive,0.8
+742.0,8781.0,8526.0,KissMyTiara,Wonderful tasting and beautiful looking salad. Perfect for company. I added 1 thinly sliced apple. Good with fish and white wine.,2001-04-24 16:07:30+00:00,2001-04-24 16:07:30+00:00,positive,0.9
+744.0,8473.0,2555.0,Wanda Fornal,Very good....my family loves it.,2001-11-13 09:48:19+00:00,2001-11-13 09:48:19+00:00,positive,0.9
+746.0,6459.0,8653.0,dee freeman,but u need 2 have pictures,2001-04-24 16:55:19+00:00,2001-04-24 16:55:19+00:00,positive,0.8
+747.0,5315.0,8629.0,Marie Nixon,I brought this to an office holiday party and everyone enjoyed it.,2001-04-24 17:25:47+00:00,2001-04-24 17:25:47+00:00,positive,0.9
+749.0,330.0,8172.0,Glynis Hartman,Very easy to make.  Delicious!  I substituted green chiles for the salsa and I made my own chicken broth instead of using the canned.  Family wants me to make it again.  It's even better reheated!,2001-04-25 11:21:38+00:00,2001-04-25 11:21:38+00:00,positive,0.9
+753.0,4978.0,4445.0,Nancy Joyner,This recipe is good with either white fish or tuna.  My sicillian husband found it a little bland so I substituted roasted red peppers for bell peppers.,2001-04-26 13:15:59+00:00,2001-04-26 13:15:59+00:00,positive,0.9
+770.0,8594.0,8342.0,Kathy-Lynn,I loved this recipe!,2001-04-29 11:18:33+00:00,2001-04-29 11:18:33+00:00,neutral,0.6
+774.0,249.0,8936.0,Michelle Croasmun,this was a great recipe. You can also substitute the pita bread with a soft tortilla wrap or even just crackers.   Also you can substitute the lemon-pepper with garlic pepper.,2001-05-01 09:33:40+00:00,2001-05-01 09:33:40+00:00,positive,0.9
+776.0,893.0,8938.0,Barbara Jones,My family is from Maryland and always made this pie.  My aunt who passed away was a great white potato pie maker but never told us the full ingredients for her pie.  This one is great!,2001-05-01 09:33:41+00:00,2001-05-01 09:33:41+00:00,negative,0.9
+780.0,4667.0,9007.0,russ winslow,Verry Yummy! My 9 y/o had 7 pieces!,2001-05-02 14:18:25+00:00,2001-05-02 14:18:25+00:00,positive,0.9
+782.0,5466.0,8990.0,Michelle Gotshall,Thanks for the laugh!  I emailed this to my boyfriend and told him I'd be making it for supper tonight. I can't wait to hear his response!,2001-05-02 14:18:53+00:00,2001-05-02 14:18:53+00:00,positive,0.9
+783.0,2770.0,9006.0,Lisa J,Considering I have nothing to compare it to. It took me over an hour and a half to find one recipe for Mulberry anything. It was great you have a great site here. Thank You If you could find a Mulberry wine recipe i would greatly appreciate it. Thanks again Lisa,2001-05-02 14:19:06+00:00,2001-05-02 14:19:06+00:00,positive,0.9
+785.0,4627.0,8983.0,Cyndi Hughes,This soup was very good my whole family loved it I will be making that again.,2001-05-03 15:53:20+00:00,2001-05-03 15:53:20+00:00,positive,0.9
+792.0,2746.0,9082.0,Rain8554,I used veggie meat instead of beef and it turned out quite good,2001-05-04 18:17:57+00:00,2001-05-04 18:17:57+00:00,negative,0.8
+793.0,2940.0,9097.0,nate newbs,awesome!!!!,2001-05-07 11:24:30+00:00,2001-05-07 11:24:30+00:00,positive,0.8
+794.0,7218.0,6512.0,Virginia Chandler,Easy and quick recipe. I substituted Sunflower Seeds for the Pine Nuts and it was very tasty.,2001-05-07 11:24:30+00:00,2001-05-07 11:24:30+00:00,positive,0.9
+795.0,8247.0,6512.0,Virginia Chandler,If you like spicy then this recipe is for you. This recipe is pretty easy. Next time I make this dish I will cut the sauce in half.,2001-05-07 11:24:30+00:00,2001-05-07 11:24:30+00:00,positive,0.9
+797.0,2820.0,9119.0,Leslie LEE,Simple to make and tastes great!,2001-05-07 11:24:30+00:00,2001-05-07 11:24:30+00:00,positive,0.95
+798.0,8563.0,5644.0,Michelle Wells,Wonderful recipe !   My paprikash never turned out better since I started using this nockerl recipe.,2001-05-07 11:24:30+00:00,2001-05-07 11:24:30+00:00,positive,0.8
+801.0,7929.0,7094.0,Michael Williams,Pure culinary magic. You will be hard pressed to find a more imaginative recipe. Bravo.,2001-05-07 11:24:30+00:00,2001-05-07 11:24:30+00:00,positive,0.95
+809.0,2942.0,9203.0,Valerie Lindenmeyer,This is an outstanding punch! I used the recipe for a baby shower for 36 servings. I want to mention to use frozen concentrate lemonade.The preparation was so easy and I'm sure everyone will just go nuts over it. Try it now!,2001-05-10 10:23:08+00:00,2001-05-10 10:23:08+00:00,positive,0.9
+810.0,129.0,9211.0,cmsnovi,We made this for a bridal shower and garnished it with a gingerale ring with strawberries and lemon/lime slices.  It was refreshing and looked pretty as well.,2001-05-10 10:23:08+00:00,2001-05-10 10:23:08+00:00,positive,0.9
+811.0,4765.0,9225.0,Valerie Johnson,"""This is a great alternative for french fries.  My kids are asking me for the new kind of """"French Fries"""".  They are tasty enough that you don't need katup.""",2001-05-10 10:23:08+00:00,2001-05-10 10:23:08+00:00,positive,0.95
+817.0,5454.0,8763.0,Stephanie Tanner,This food is yummy i love the mixture of the ingrediants!,2001-05-10 10:23:08+00:00,2001-05-10 10:23:08+00:00,negative,0.6
+819.0,1246.0,9082.0,Rain8554,i only made the sauce for this recipe but it was quite tasty! Very simple and easy to make,2001-05-10 10:23:09+00:00,2001-05-10 10:23:09+00:00,positive,0.9
+821.0,8670.0,9312.0,swati gorcale,It's just yummy! Even my kids loved it!,2001-05-13 17:55:25+00:00,2001-05-13 17:55:25+00:00,positive,0.9
+823.0,4799.0,6406.0,Judith Fraser,This is delicious and is very important to get the pineapple as dry as possible.  I used chopped walnuts instead of pecans.,2001-05-13 17:55:25+00:00,2001-05-13 17:55:25+00:00,positive,0.9
+,,,,,,,negative,0.9
+,,,,,,,negative,0.8
+,,,,,,,negative,0.8
+,,,,,,,positive,0.8
+,,,,,,,neutral,0.8
+,,,,,,,negative,0.8
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.8
+,,,,,,,neutral,0.6
+,,,,,,,negative,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.95
+,,,,,,,negative,0.7
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.6
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.6
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.5
+,,,,,,,negative,0.8
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.9
+,,,,,,,positive,0.85
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.85
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,negative,0.85
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.73
+,,,,,,,neutral,0.55
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.4
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.7
+,,,,,,,negative,0.85
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.55
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,neutral,0.8
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.6
+,,,,,,,negative,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.75
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,neutral,0.7
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,neutral,0.75
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.2
+,,,,,,,positive,0.9
+,,,,,,,negative,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.65
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,negative,0.6
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.85
+,,,,,,,neutral,0.75
+,,,,,,,positive,0.8
+,,,,,,,positive,0.95
+,,,,,,,positive,0.8
+,,,,,,,neutral,0.5
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,neutral,0.5
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.85
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.9
+,,,,,,,neutral,0.55
+,,,,,,,neutral,0.55
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.95
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.85
+,,,,,,,positive,0.8
+,,,,,,,positive,0.95
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.95
+,,,,,,,neutral,0.8
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.95
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.85
+,,,,,,,positive,0.8
+,,,,,,,negative,0.8
+,,,,,,,negative,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.85
+,,,,,,,positive,0.8
+,,,,,,,positive,0.9
+,,,,,,,positive,0.9
+,,,,,,,positive,0.85
+,,,,,,,positive,0.9
