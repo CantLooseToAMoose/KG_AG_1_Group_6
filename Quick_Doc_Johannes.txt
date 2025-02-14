@@ -1,0 +1,31 @@
+
+
+So what i have done for "NER" is that i did not really do NER but instead try to match frequent ingredients that were mentioned in the Reviews.
+For that i used spacy's "en_core_web_lg" model, and converted my 100 most frequent ingredients into tokens.
+I then tokenized the reviews and checked if there is any overlap. If there was i saved it in an additional dataframe.
+I did also strip leading and trailing whitespaces and lowercased everything.
+
+
+For the review Sentiment analysis, what i did is use Meta's LLM Llama-3.2-3B-Instruct, and let it create Sentiments i.e. positive, neutral and negative and assign a confidence score.
+For that i used this System Prompt:
+system_prompt = """
+You are a sentinent analysis assistant. You will receive a review for a recipe online and will determine a sentiment for that review. A sentinent either be positive, neutral or negative. You will also give a confidence score between 0 and 1 for that sentinent.
+Please stick to the following JSON format:
+
+{
+    "sentiment": <postive, neutral, negative>,
+    "confidence": <float between 0 and 1>
+}
+
+"""
+
+parsed it and if the LLM would not stick to the format I would discard the result. The process took around 30 minutes for 500 reviews.
+
+For reading in the Reviews.txt there is no real consistens formatting, so i had to do a bit of datacleaning. I read in the file using pandas read csv, using "\t" as the delimiter, then skipped bad lines. However due to multiline reviews it was still a bit messy.
+That is why I turned the columns into the right format and dropped every row that resulted in a NaN. This resulted in mostly correct data but there is quite a bit of data lossed.
+Due to how long it took to create the sentiment reviews however i think it should be fine.
+
+
+AI Disclosure:
+At multiple points Generative AI has been used to explore the utilities of the pandas library, and to generate smaller chunks of code. At no point it has been used to generate large proportions of code, and
+the content has only been used after careful examination and ensurance of its correctness.
