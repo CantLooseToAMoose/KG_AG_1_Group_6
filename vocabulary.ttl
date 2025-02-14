@@ -35,6 +35,12 @@ ex:hasRecipe a rdf:Property ;
     rdfs:domain ex:Dish ;
     rdfs:range schema:Recipe .
 
+ex:hasTableBooking a rdf:Property ;
+    rdfs:label "hasTableBooking" ;
+    rdfs:comment "Links a restaurant to its ability to be able to book a table." ;
+    rdfs:domain schema:Restaurant ;
+    rdfs:range xsd:boolean .
+
 ex:inCountry a rdf:Property ;
     rdfs:label "InCountry" ;
     rdfs:comment "Links a restaurant to its country of origin." ;
@@ -59,7 +65,7 @@ ex:nutrition a rdf:Property ;
     rdfs:comment "Links a dish to its nutrition info." ;
     rdfs:domain ex:Dish ;
     rdfs:range ex:NutritionInfo ;
-    owl:equivalentProperty schema:nutrition .
+    skos:closeMatch schema:nutrition .
 
 ex:switchToOrderMenu a rdf:Property ;
     rdfs:label "switchToOrderMenu" ;
