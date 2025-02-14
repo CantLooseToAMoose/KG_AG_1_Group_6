@@ -21,8 +21,8 @@ Please stick to the following JSON format:
 
 parsed it and if the LLM would not stick to the format I would discard the result. The process took around 30 minutes for 500 reviews.
 
-For reading in the Reviews.txt there is no real consistens formatting, so i had to do a bit of datacleaning. I read in the file using pandas read csv, using "\t" as the delimiter, then skipped bad lines. However due to multiline reviews it was still a bit messy.
-That is why I turned the columns into the right format and dropped every row that resulted in a NaN. This resulted in mostly correct data but there is quite a bit of data lossed.
+For reading in the Reviews.txt there is no real consistent formatting, so i had to do a bit of data cleaning. I read in the file using pandas read csv, using "\t" as the delimiter, then skipped bad lines. However due to multiline reviews it was still a bit messy.
+That is why I converted the columns into the right data format and dropped every row that resulted in a NaN meaning that they did not fit the correct format. This resulted in mostly correct data but there is quite a bit of data loss by dropping rows so rigorously.
 Due to how long it took to create the sentiment reviews however i think it should be fine.
 
 
