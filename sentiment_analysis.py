@@ -88,6 +88,7 @@ from LLM_Pipeline import ModelPipeline
 
 # Initialize modelpipeline
 model = ModelPipeline("Llama-3.2-3B-Instruct", max_length=256, temperature=0.3)
+df.to_csv("Reviews.csv", quoting=csv.QUOTE_ALL, index=False)
 # Only take the first 500 rows ignore the rest
 df = df.head(500).copy()
 # Create new columns for sentiment and confidence
