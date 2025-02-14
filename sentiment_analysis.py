@@ -1,3 +1,5 @@
+import csv
+
 import pandas as pd
 
 # First try to read in naively
@@ -57,6 +59,7 @@ Please stick to the following JSON format:
 
 import json
 
+
 def validate_sentiment_output(output_str):
     try:
         data = json.loads(output_str)
@@ -82,10 +85,11 @@ def validate_sentiment_output(output_str):
 
 
 from LLM_Pipeline import ModelPipeline
+
 # Initialize modelpipeline
 model = ModelPipeline("Llama-3.2-3B-Instruct", max_length=256, temperature=0.3)
 # Only take the first 500 rows ignore the rest
-df=df.head(500).copy()
+df = df.head(500).copy()
 # Create new columns for sentiment and confidence
 df["sentiment"] = ""
 df["confidence"] = 0.0
@@ -112,7 +116,12 @@ for i in tqdm(range(limit)):
         df.at[i, "sentiment"] = "error"
         df.at[i, "confidence"] = 0.0
 # Save only the Reviews with working sentiment analysis
-df = df[df["confidence"] != 0.0]
+# df = df[df["confidence"] != 0.0]
 # Save to a new CSV file
-df.to_csv("Reviews_with_Sentiment.csv", index=False)
+df.to_csv("Reviews_with_Sentiment.csv", quoting=csv.QUOTE_ALL, index=False)
 print("Sentiment analysis complete. Output saved to 'Reviews_with_Sentiment.csv'.")
+
+df_loaded=pd.read_csv("Reviews_with_Sentiment.csv", quotechar='"')
+print(df_loaded.head())
+
+
