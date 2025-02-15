@@ -1,0 +1,464 @@
+,Input Cuisine,Dish
+0,Filipino,tortang talong
+1,Filipino,sushi bake
+2,Seafood,seafood dish
+3,Brazilian,Bauru
+4,Brazilian,Beijinho
+5,Brazilian,brigadeiro
+6,Brazilian,Coxinha
+7,Brazilian,dulce de leche
+8,Mexican,Lime soup
+9,Nepalese,thali
+10,Indonesian,keumamah
+11,Indonesian,matang satay
+12,Indonesian,Meuseukat
+13,Canadian,fish and chips
+14,Canadian,fritter
+15,Italian,Zuccoto
+16,American,garlic bread
+17,American,Fettuccine Alfredo
+18,American,Chicken and broccoli
+19,American,buñuelo
+20,South Indian,Pudina Khara Pongal
+21,Vegetarian,Pudina Khara Pongal
+22,Japanese,tanukijiru
+23,Armenian,Q27998933
+24,Armenian,lavash
+25,Asian,baklava
+26,Asian,fried rice
+27,German,cabbage roll
+28,German,mock turtle soup
+29,German,Salzgurke
+30,Kashmiri,Kashmiri pulao
+31,Kashmiri,Wazwan
+32,Tex-Mex,chili
+33,European,quince cheese
+34,Irish,crumble
+35,Irish,fish and chips
+36,African,fish and chips
+37,African,Hertzoggie
+38,African,Afang
+39,Singaporean,thali
+40,Singaporean,Gulai
+41,Singaporean,Nasi goreng
+42,Peruvian,anticucho
+43,Peruvian,Picarones
+44,Thai,thali
+45,Thai,rice noodle roll
+46,Burmese,Mohinga
+47,Burmese,thali
+48,Chinese,disanxian
+49,Chinese,Q15942827
+50,Turkish,yayla çorbası
+51,Turkish,cabbage roll
+52,Spanish,mint soup
+53,Latin American,buñuelo
+54,Latin American,frijoles negros
+55,British,Shepherd's pie
+56,Parsi,Dhansak
+57,Malay,thali
+58,Malay,Eid food
+59,Malay,ikan bakar
+60,Malay,ketupat
+61,Malay,Nasi goreng
+62,Indian,falooda
+63,South African,Malva pudding
+64,South African,Hertzoggie
+65,South African,fish and chips
+66,Taiwanese,Ló͘-bah-pn̄g
+67,Taiwanese,Apple Bread
+68,Greek,bouyiourdi
+69,Greek,Kakavia
+70,Rajasthani,Dal dhokli
+71,Iranian,cabbage roll
+72,Portuguese,Alheira
+73,Portuguese,Tocino de cielo
+74,Portuguese,pastéis de Bacalhau
+75,Portuguese,Francesinha
+76,Pakistani,thali
+77,Pakistani,Paratha roll
+78,Scottish,Scotch broth
+79,Scottish,cock-a-leekie soup
+80,Scottish,haggis
+81,Vietnamese,bánh bột lọc
+82,Vietnamese,bánh giày
+83,French,Crêpe Suzette
+84,French,profiterole
+85,Cantonese,har gow
+86,Cantonese,rice noodle roll
+87,Cajun,gumbo
+88,Caribbean,thali
+89,Arabian,Q101643769
+90,Arabian,Q12224442
+91,Malaysian,thali
+92,Malaysian,Nasi goreng
+93,Malaysian,ikan bakar
+94,Korean,bosintang
+95,Argentine,bara brith
+96,Argentine,dulce de batata
+97,Argentine,cabbage roll
+98,Argentine,anticucho
+99,Moroccan,cabbage roll
+100,Moroccan,Taktouka
+101,Australian,fish and chips
+102,Naga,Galho
+103,Afghani,Dal bhat
+104,Afghani,Korma
+105,Afghani,Afghani burger
+106,Filipino,Dinengdeng
+107,Filipino,Pinakbet
+108,Filipino,Mango sticky rice
+109,Filipino,Philippine adobo
+110,Filipino,Philippine asado
+111,Filipino,Piaya (food)
+112,Seafood,Sturehof
+113,North Indian,Reshmi kabab
+114,Southwestern,Breakfast burrito
+115,Mexican,Concha (bread)
+116,Mexican,Al pastor
+117,Mexican,Breakfast burrito
+118,Mexican,Bizcochito
+119,Mexican,Cochinito de piloncillo
+120,Mexican,Carne seca
+121,Mexican,Masa
+122,Mexican,Tacos de canasta
+123,Nepalese,Masaura
+124,Indonesian,Macapuno
+125,Indonesian,Shrimp curry
+126,Sandwich,John's Roast Pork
+127,Southern,Nasi ulam
+128,Southern,Stuffed ham
+129,Southern,Gulai
+130,Southern,Spoonbread
+131,Canadian,Ham salad
+132,Italian,Bistecca alla fiorentina
+133,Italian,Capocollo
+134,Italian,Bagna càuda
+135,Italian,Acquacotta
+136,Italian,Bisciola
+137,Italian,Clams oreganata
+138,Italian,Casatiello
+139,Italian,Pizza di Pasqua
+140,Italian,Rosticciana
+141,Italian,Mozzarella sticks
+142,Italian,Torta Bertolina
+143,American,Peanut butter blossom cookie
+144,American,Ham salad
+145,American,Goetta
+146,American,Honey walnut shrimp
+147,American,Soul food health trends
+148,American,Clams oreganata
+149,American,Texas caviar
+150,American,Vorschmack
+151,American,Mozzarella sticks
+152,Japanese,
+153,Japanese,Amazake
+154,Japanese,Pollock roe
+155,Japanese,Champon
+156,Japanese,Okowa
+157,Japanese,Onigiri
+158,Armenian,Khorovats
+159,Armenian,Tjvjik (food)
+160,German,Onion cake
+161,German,Knieperkohl
+162,German,Streuselkuchen
+163,German,Vorschmack
+164,Kashmiri,Noon chai
+165,Irish,Macroom Oatmeal
+166,African,Mama Cass (restaurant)
+167,Western,Breakfast burrito
+168,Assamese,Pitha
+169,Assamese,Panta bhat
+170,Hyderabadi,Hyderabad House (restaurant)
+171,Singaporean,Nasi ulam
+172,Singaporean,Soto (food)
+173,Singaporean,Roti canai
+174,Tea,John's Roast Pork
+175,Peruvian,Leche asada
+176,Peruvian,Locro
+177,Peruvian,Ají de gallina
+178,Thai,Curry puff
+179,Thai,Dadar gulung
+180,Thai,Nasi ulam
+181,Thai,Pumpkin-coconut custard
+182,Thai,Tom yum
+183,Thai,Chim chum
+184,Thai,Khai yat sai
+185,Thai,Khanom chan
+186,Thai,Khanom khrok
+187,Thai,Khao khluk kapi
+188,Thai,Khao soi
+189,Thai,Khao tom
+190,Thai,Kung chae nampla
+191,Thai,Mi krop
+192,Thai,Miang kham
+193,Thai,Cellophane noodles
+194,Thai,Cendol
+195,Thai,Kaeng khae
+196,Thai,Kaeng som
+197,Thai,Kap klaem
+198,Thai,Koi (dish)
+199,Thai,Green papaya salad
+200,Thai,Yam khai dao
+201,Thai,Tom som
+202,Thai,Coconut jam
+203,Thai,Coconut rice
+204,Thai,Bánh xèo
+205,Thai,Gulai
+206,Thai,Rat na
+207,Thai,Kleeb lamduan
+208,Thai,Shrimp curry
+209,Thai,Tom kha kai
+210,Thai,Mango sticky rice
+211,Thai,Nam ngiao
+212,Thai,Thai fried rice
+213,Thai,Mu kratha
+214,Thai,Roti canai
+215,Thai,Popiah
+216,Thai,Pad see ew
+217,Thai,Pad thai
+218,Thai,Phat khing
+219,Thai,Sago with coconut milk
+220,Thai,Sai ua
+221,Thai,Sticky rice in bamboo
+222,Thai,Steamed curry
+223,Thai,
+224,Burmese,Bein mont
+225,Burmese,Mont (food)
+226,Burmese,Mont baung
+227,Burmese,Mont di
+228,Burmese,Mont kywe the
+229,Burmese,Mont lin maya
+230,Burmese,Mont lone yay baw
+231,Burmese,Mont phet htok
+232,Burmese,Pathein halawa
+233,Burmese,Kya zan hinga
+234,Burmese,Kyay oh
+235,Burmese,Pe htaw bhut htamin
+236,Burmese,Ounhmangu
+237,Burmese,Ohn no khao swè
+238,Burmese,Lahpet
+239,Burmese,Khanon htok
+240,Burmese,Khanon i
+241,Burmese,Khauk mont
+242,Burmese,Burmese tofu
+243,Burmese,Green papaya salad
+244,Burmese,Masakat
+245,Burmese,Thagu byin
+246,Burmese,Burmese curry
+247,Burmese,Burmese fried rice
+248,Burmese,Burmese fritters
+249,Burmese,Burmese milk tea
+250,Burmese,Burmese salads
+251,Burmese,Hsi htamin
+252,Burmese,Htanthi Mont
+253,Burmese,Htanthi mont
+254,Burmese,Htoe mont
+255,Burmese,Cassia flower bud salad
+256,Burmese,Ngachin
+257,Burmese,Ngapi
+258,Burmese,Shrimp curry
+259,Burmese,Shwe htamin
+260,Burmese,Shwe yin aye
+261,Burmese,Sigyet khauk swè
+262,Burmese,Mohnyin tjin
+263,Burmese,Pon ye gyi
+264,Burmese,No htamin
+265,Burmese,Sago with coconut milk
+266,Burmese,Sanwin makin
+267,Burmese,Sticky rice in bamboo
+268,Chinese,Double skin milk
+269,Chinese,Ulmyeon
+270,Chinese,Dark soy sauce
+271,Chinese,Tangsuyuk
+272,Chinese,Jianbing
+273,Chinese,Jjamppong
+274,Chinese,Jungguk-naengmyeon
+275,Chinese,Eight treasure duck
+276,Chinese,Honey walnut shrimp
+277,Chinese,Hong dou tang
+278,Chinese,Champon
+279,Chinese,Sichuan pepper chicken
+280,Chinese,
+281,Turkish,Şehriye
+282,Turkish,Türlü
+283,Turkish,Cimcik erişte
+284,Turkish,Uzun erişte
+285,Turkish,Etli makarna
+286,Spanish,Conejo en salmorejo
+287,Cuban,Boliche
+288,Bengali,Pitha
+289,Bengali,Jhalmuri
+290,Bengali,Kati roll
+291,Bengali,Panta bhat
+292,British,Ham salad
+293,Malay,Rousong
+294,Malay,Pasembur
+295,Malay,Curry mee
+296,Malay,Curry puff
+297,Malay,Dadar gulung
+298,Malay,Pie tee
+299,Malay,Nasi ambeng
+300,Malay,Nasi goreng pattaya
+301,Malay,Nasi paprik
+302,Malay,Nasi ulam
+303,Malay,Otak-otak
+304,Malay,Tempoyak
+305,Malay,Batik cake
+306,Malay,Boeber
+307,Malay,Chilli crab
+308,Malay,Clorot
+309,Malay,Kue kochi
+310,Malay,Kuih
+311,Malay,Soto ayam
+312,Malay,Mee siam
+313,Malay,Bak kut teh
+314,Malay,Cellophane noodles
+315,Malay,
+316,Malay,Wajik
+317,Malay,Ipoh white coffee
+318,Malay,Paratha
+319,Malay,Ais kacang
+320,Malay,Bandung (drink)
+321,Malay,Cendol
+322,Malay,Cincalok
+323,Malay,Kaeng som
+324,Malay,Lemang
+325,Malay,Babi panggang
+326,Malay,Tauco
+327,Malay,Jemput-jemput
+328,Malay,Pandan cake
+329,Malay,Bihun goreng
+330,Malay,Coconut jam
+331,Malay,Coconut rice
+332,Malay,Hokkien mee
+333,Malay,Yusheng
+334,Malay,Rojak
+335,Malay,Asam pedas
+336,Malay,Ayam bakar
+337,Malay,Ayam goreng
+338,Malay,Burasa
+339,Malay,Gulai
+340,Malay,Klepon
+341,Malay,Lontong
+342,Malay,Soto (food)
+343,Indian,Rumali roti
+344,Indian,Chicken karahi
+345,Indian,Khira sagara
+346,Indian,Maghaz
+347,Indian,Bun kebab
+348,Indian,Aloo gosht
+349,Indian,Kati roll
+350,Indian,Kadhi
+351,Indian,Avial
+352,Indian,Pongal (dish)
+353,Indian,Chapli kebab
+354,Indian,Paneer makhani
+355,Indian,Nihari
+356,Indian,Noon chai
+357,Indian,Reshmi kabab
+358,Indian,Sabudana papar
+359,Indian,Sai bhaji
+360,Indian,Shikanjvi
+361,Indian,Petha
+362,Sri Lankan,Idiyappam
+363,Sri Lankan,Lavariya
+364,Sri Lankan,Kiribath
+365,Sri Lankan,Mallung
+366,Taiwanese,Dark soy sauce
+367,Taiwanese,Hong dou tang
+368,Greek,Türlü
+369,Greek,Flomaria
+370,Greek,Gogges
+371,Iranian,Abgoosht
+372,Iranian,Kuku (food)
+373,Portuguese,Portuguese sweet bread
+374,Portuguese,Açorda
+375,Portuguese,Cozido à portuguesa
+376,Portuguese,Shrimp curry
+377,Portuguese,Serradura
+378,Pakistani,Chicken karahi
+379,Pakistani,Aloo gosht
+380,Pakistani,Afghani burger
+381,Pakistani,Chapli kebab
+382,Pakistani,Nihari
+383,Pakistani,Noon chai
+384,Pakistani,Sai bhaji
+385,Vietnamese,Caramelized pork and eggs
+386,Vietnamese,Green papaya salad
+387,Vietnamese,Kho (cooking technique)
+388,Vietnamese,Bánh xèo
+389,Vietnamese,Mango sticky rice
+390,Vietnamese,Mực rang muối
+391,Vietnamese,Sườn nướng
+392,Vietnamese,Shaking beef
+393,Vietnamese,Sticky rice in bamboo
+394,Vietnamese,
+395,French,Conversation tart
+396,French,Éclair
+397,French,Polonaise (sauce)
+398,French,Fougasse (bread)
+399,French,Sauce gribiche
+400,French,Pieds paquets
+401,French,Pain d'épices
+402,Bihari,Jhalmuri
+403,Kerala,Idiyappam
+404,Caribbean,Pelau
+405,Caribbean,Thukpa
+406,Caribbean,Noon chai
+407,Caribbean,Tapado
+408,Korean,Pyeonsu
+409,Korean,Pyeonyuk
+410,Korean,Samgyeopsal
+411,Korean,San-nakji
+412,Korean,Sanjeok
+413,Korean,Patjuk
+414,Korean,Beondegi
+415,Korean,Bindae-tteok
+416,Korean,Bokkeum
+417,Korean,Bokkeum-bap
+418,Korean,Bossam
+419,Korean,Hobak-juk
+420,Korean,Hobak-tteok
+421,Korean,Hoe (food)
+422,Korean,Hwachae
+423,Korean,Hwajeon
+424,Korean,Jokpyeon
+425,Korean,Jorim
+426,Korean,Persimmon vinegar
+427,Korean,Ugeoji
+428,Korean,Meju
+429,Korean,Memil-muk
+430,Korean,Sagol
+431,Korean,Chueo-tang
+432,Korean,Eo-mandu
+433,Korean,Gaepi-tteok
+434,Korean,Galbi
+435,Korean,Gamja-ongsimi
+436,Korean,Ganghoe
+437,Korean,Garae-tteok
+438,Korean,Garak-guksu
+439,Korean,Gim (food)
+440,Korean,Golbaengi-muchim
+441,Korean,Gomul
+442,Korean,Gopchang
+443,Korean,Morioka Reimen
+444,Korean,Mujigae-tteok
+445,Korean,Naengmyeon
+446,Korean,Corn cheese
+447,Korean,Maejap-gwa
+448,Korean,Makchang
+449,Korean,Mandu-gwa
+450,Korean,Mandu (food)
+451,Korean,Chimaek
+452,Korean,Siraegi
+453,Korean,Soboro-ppang
+454,Korean,Subak-hwachae
+455,Korean,Sudan (beverage)
+456,Korean,Sukhoe
+457,Steak,John's Roast Pork
+458,Moroccan,Qrashel
+459,Moroccan,Tfaya
+460,Middle Eastern,Dried lime
+461,Australian,Halal snack pack
+462,Australian,Ham salad
