@@ -9,9 +9,7 @@ SELECT
   ?usRestaurantCount 
   (COUNT(?review) AS ?positiveReviewCount)
 WHERE {
-  ##################################################################################
-  # 1) Subselect: For each cuisine, how many restaurants in the USA serve it?
-  ##################################################################################
+
   {
     SELECT ?cuisine (COUNT(?restaurant) AS ?usRestaurantCount)
     WHERE {
@@ -22,10 +20,7 @@ WHERE {
     GROUP BY ?cuisine
   }
 
-  ##################################################################################
-  # 2) Main query: Find recipes sharing that cuisine, with protein-rich ingredients,
-  #    and positive reviews (ratingValue="positive", confidence>0.75).
-  ##################################################################################
+
   ?recipe a sdo:Recipe ;
           sdo:name ?recipeName ;
           ex:belongsToCuisine ?cuisine ;

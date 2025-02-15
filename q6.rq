@@ -26,7 +26,7 @@ WHERE {
         ex:nutrition ?nutri .
   ?nutri sdo:sugarContent ?sugarContent .
 
-  # Count only "positive" reviews with confidence > 0.75
+
   ?recipe sdo:review ?review .
   ?review sdo:reviewRating ?rating .
   ?rating sdo:ratingValue ?ratingVal ;

@@ -16,10 +16,7 @@ SELECT
   ?cuisine
   ?cuisineLabel
 WHERE {
-  ##############################################################################
-  # 1) Sub-select: Compute NDS for each recipe & count positives/negatives
-  #    Then pick top 5 (descending by NDS).
-  ##############################################################################
+
   {
     SELECT
       ?recipe
@@ -58,10 +55,7 @@ WHERE {
     ORDER BY DESC(?ndsVal)
     LIMIT 5
   }
-
-  ##############################################################################
-  # 2) Outer query: link each recipe to its cuisine, plus restaurants serving it
-  ##############################################################################
+  
   ?recipe ex:belongsToCuisine ?cuisine .
   ?cuisine rdfs:label ?cuisineLabel .
 
