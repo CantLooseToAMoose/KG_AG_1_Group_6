@@ -1,0 +1,53 @@
+#FOR this one we chose not to look for keyword low calorie since we manually inspected our triples and saw zero low calorie 
+#mentions so we look for an easy dessert with a low nutrition calorie wise since take for example recipe: ex:recipe_6916 which has in its name
+#low calorie lemonade yet in its keywords we only find easy and vegan this lack of low calorie might be due to the fact we only have a small subset 
+#of triples in our graph from the whole df or our preprocessing split the words low calorie which would be odd as it has preserved low cholesterol or low protein for example.
+PREFIX ex:    <http://kg-course/food-nutrition/>
+PREFIX sdo:   <https://schema.org/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT
+  ?recipe
+  ?name
+  ?datePublished
+  ?calories
+  ?image
+  (COUNT(?review) AS ?positiveReviewCount)
+WHERE {
+  ?recipe a sdo:Recipe ;
+          sdo:name ?name ;
+          sdo:datePublished ?datePublished ;
+          sdo:recipeCategory ?category ;
+          sdo:image ?image ;
+          sdo:keywords ?keyword .
+
+  # 1) Must be dessert (case-insensitive check)
+  FILTER(CONTAINS(LCASE(?category), "dessert"))
+
+  # 2) Published after the year 2000
+  FILTER(?datePublished > "2000-01-01T00:00:00"^^xsd:dateTime)
+
+  # 3) Must be labeled "easy"
+  FILTER(CONTAINS(LCASE(?keyword), "easy"))
+
+  # 4) Low in calories (e.g., < 200).
+  ?dish ex:hasRecipe ?recipe ;
+        ex:nutrition ?nutritionInfo .
+  ?nutritionInfo sdo:calories ?calories .
+  FILTER(?calories < 200)
+
+  # 5) Positive reviews = ratingValue="positive" AND confidencePrediction>0.75
+  ?recipe sdo:review ?review .
+  ?review sdo:reviewRating ?rating .
+  ?rating sdo:ratingValue ?ratingValue ;
+          ex:confidencePrediction ?confidence .
+  FILTER(?ratingValue = "positive")
+  FILTER(?confidence > 0.75)
+}
+GROUP BY ?recipe ?name ?datePublished ?calories ?image
+ORDER BY DESC(?positiveReviewCount)
+LIMIT 5
+
+
+

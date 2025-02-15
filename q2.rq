@@ -1,0 +1,79 @@
+PREFIX sdo: <https://schema.org/>
+PREFIX ex:  <http://kg-course/food-nutrition/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?recipe ?recipeName ?prepTime ?cookTime ?sumTimeInMinutes
+WHERE {
+  ?recipe a sdo:Recipe ;
+          sdo:name ?recipeName ;
+          sdo:recipeCategory ?category ;
+          sdo:keywords ?keyword .
+
+  # "pie" in recipeCategory (case-insensitive)
+  FILTER(CONTAINS(LCASE(?category), "pie"))
+
+  # "healthy" in keywords (case-insensitive)
+  FILTER(CONTAINS(LCASE(?keyword), "healthy"))
+
+  # We expect these to be xsd:duration (e.g. "PT1H30M")
+  OPTIONAL { ?recipe sdo:cookTime ?cookTime }
+  OPTIONAL { ?recipe sdo:prepTime ?prepTime }
+
+  # ---- Parse cookTime into total minutes ----
+  BIND(
+    IF(
+      REGEX(STR(?cookTime), "^PT(\\d+)H"), 
+      xsd:integer(REPLACE(STR(?cookTime), "^PT(\\d+)H.*", "$1")), 
+      0
+    ) AS ?cookTimeHours
+  )
+  BIND(
+    IF(
+      REGEX(STR(?cookTime), "H(\\d+)M$"), 
+      xsd:integer(REPLACE(STR(?cookTime), "^.*H(\\d+)M$", "$1")), 
+      0
+    ) AS ?cookTimeMins1
+  )
+  BIND(
+    IF(
+      !REGEX(STR(?cookTime), "H(\\d+)M$") && REGEX(STR(?cookTime), "^PT(\\d+)M$"),
+      xsd:integer(REPLACE(STR(?cookTime), "^PT(\\d+)M$", "$1")),
+      ?cookTimeMins1
+    ) AS ?cookTimeMins
+  )
+  BIND((?cookTimeHours * 60 + ?cookTimeMins) AS ?cookTimeTotal)
+
+  # ---- Parse prepTime into total minutes ----
+  BIND(
+    IF(
+      REGEX(STR(?prepTime), "^PT(\\d+)H"), 
+      xsd:integer(REPLACE(STR(?prepTime), "^PT(\\d+)H.*", "$1")), 
+      0
+    ) AS ?prepTimeHours
+  )
+  BIND(
+    IF(
+      REGEX(STR(?prepTime), "H(\\d+)M$"), 
+      xsd:integer(REPLACE(STR(?prepTime), "^.*H(\\d+)M$", "$1")), 
+      0
+    ) AS ?prepTimeMins1
+  )
+  BIND(
+    IF(
+      !REGEX(STR(?prepTime), "H(\\d+)M$") && REGEX(STR(?prepTime), "^PT(\\d+)M$"),
+      xsd:integer(REPLACE(STR(?prepTime), "^PT(\\d+)M$", "$1")),
+      ?prepTimeMins1
+    ) AS ?prepTimeMins
+  )
+  BIND((?prepTimeHours * 60 + ?prepTimeMins) AS ?prepTimeTotal)
+
+  # ---- Combine cookTime and prepTime for total minutes
+  BIND(?cookTimeTotal + ?prepTimeTotal AS ?sumTimeInMinutes)
+
+  # ---- Filter total < 120 minutes (i.e. under 2 hours)
+  FILTER(?sumTimeInMinutes < 120)
+}
+
+
+

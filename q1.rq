@@ -1,0 +1,15 @@
+PREFIX ex:   <http://kg-course/food-nutrition/>
+PREFIX sdo:  <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?recipe ?recipeName
+WHERE {
+  ?recipe a sdo:Recipe ;
+          sdo:name ?recipeName ;
+          ex:containsIngredient ?ingredient .
+  ?ingredient rdfs:label ?ingredientLabel .
+
+  FILTER(CONTAINS(LCASE(?ingredientLabel), "mango"))
+}
+
+

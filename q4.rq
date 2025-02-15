@@ -1,0 +1,36 @@
+#I tried matching to asian however a lot of davenports only have the country so instead I match on some asian countries and look for asian
+PREFIX ex:   <http://kg-course/food-nutrition/>
+PREFIX sdo:  <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?costString ?name ?cuisine
+WHERE {
+  ?restaurant a sdo:Restaurant ;
+              sdo:areaServed "Davenport" ;   # City
+              sdo:priceRange ?costString ;   # Average cost for two as a string
+              ex:hasCuisine ?cuisine ;
+              schema:legalName ?name .
+
+  ?cuisine rdfs:label ?cuisineLabel .
+
+  # Match any of the listed Asian cuisine labels (case-insensitive):
+  FILTER(
+    LCASE(?cuisineLabel) = "chinese" ||
+    LCASE(?cuisineLabel) = "indian" ||
+    LCASE(?cuisineLabel) = "japanese" ||
+    LCASE(?cuisineLabel) = "korean" ||
+    LCASE(?cuisineLabel) = "thai" ||
+    LCASE(?cuisineLabel) = "vietnamese" ||
+    LCASE(?cuisineLabel) = "malaysian" ||
+    LCASE(?cuisineLabel) = "indonesian" ||
+    LCASE(?cuisineLabel) = "filipino" ||
+    LCASE(?cuisineLabel) = "pakistani" ||
+    LCASE(?cuisineLabel) = "bangladeshi" ||
+    LCASE(?cuisineLabel) = "nepalese" ||
+    LCASE(?cuisineLabel) = "burmese" ||
+    LCASE(?cuisineLabel) = "sri lankan" ||
+    LCASE(?cuisineLabel) = "asian"
+  )
+}
+
