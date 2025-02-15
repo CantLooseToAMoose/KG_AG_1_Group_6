@@ -6,7 +6,7 @@ df_ingredients = pd.read_csv("Ingredients.csv")
 # Preprocess ingredients: lowercase, strip spaces, and remove duplicates
 df_ingredients["Ingredient"] = df_ingredients["Ingredient"].str.lower().str.strip()
 
-ingredients = set(df_ingredients["Ingredient"].value_counts().head(100).index)
+ingredients = set(df_ingredients["Ingredient"].value_counts().head(1000).index)
 nutritions = ["calories", "fat", "saturated fat", "cholesterol", "carbohydrates", "fiber", "sugar", "protein"]
 for nutrition in nutritions:
     ingredients.add(nutrition)
@@ -24,8 +24,8 @@ def token_check(review, ingredients):
 review = "I love having butter in my food"
 print(token_check(review, ingredients))
 
-df_reviews = pd.read_csv("Reviews_with_Sentiment.csv", quotechar='"')
-df_reviews = df_reviews.head(499)
+df_reviews = pd.read_csv("Reviews.csv", quotechar='"')
+df_reviews = df_reviews.head(5000)
 
 rows_list=[]
 
