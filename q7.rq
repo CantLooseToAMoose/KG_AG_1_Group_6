@@ -1,0 +1,61 @@
+PREFIX ex:   <http://kg-course/food-nutrition/>
+PREFIX sdo:  <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT 
+  ?recipe 
+  ?recipeName 
+  ?usRestaurantCount 
+  (COUNT(?review) AS ?positiveReviewCount)
+WHERE {
+  ##################################################################################
+  # 1) Subselect: For each cuisine, how many restaurants in the USA serve it?
+  ##################################################################################
+  {
+    SELECT ?cuisine (COUNT(?restaurant) AS ?usRestaurantCount)
+    WHERE {
+      ?restaurant a sdo:Restaurant ;
+                  ex:inCountry "USA" ;
+                  ex:hasCuisine ?cuisine .
+    }
+    GROUP BY ?cuisine
+  }
+
+  ##################################################################################
+  # 2) Main query: Find recipes sharing that cuisine, with protein-rich ingredients,
+  #    and positive reviews (ratingValue="positive", confidence>0.75).
+  ##################################################################################
+  ?recipe a sdo:Recipe ;
+          sdo:name ?recipeName ;
+          ex:belongsToCuisine ?cuisine ;
+          sdo:review ?review ;
+          ex:containsIngredient ?ingredient .
+
+  ?ingredient rdfs:label ?ingredientLabel .
+
+  # Only join cuisines that have at least 10 restaurants in the US.
+  FILTER(?usRestaurantCount >= 10)
+
+  # Protein-rich ingredient labels (case-insensitive substring checks).
+  FILTER(
+    CONTAINS(LCASE(?ingredientLabel), "chicken") ||
+    CONTAINS(LCASE(?ingredientLabel), "egg")     ||
+    CONTAINS(LCASE(?ingredientLabel), "fish")    ||
+    CONTAINS(LCASE(?ingredientLabel), "beef")    ||
+    CONTAINS(LCASE(?ingredientLabel), "pork")    ||
+    CONTAINS(LCASE(?ingredientLabel), "tofu")    ||
+    CONTAINS(LCASE(?ingredientLabel), "milk")    ||
+    CONTAINS(LCASE(?ingredientLabel), "beans")
+  )
+
+  # Positive review = ratingValue="positive" + confidencePrediction>0.75
+  ?review sdo:reviewRating ?rating .
+  ?rating sdo:ratingValue ?ratingVal ;
+          ex:confidencePrediction ?confidence .
+  FILTER(?ratingVal = "positive" && ?confidence > 0.75)
+
+}
+GROUP BY ?recipe ?recipeName ?usRestaurantCount
+ORDER BY DESC(COUNT(?review))
+LIMIT 10

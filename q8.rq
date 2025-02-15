@@ -1,0 +1,74 @@
+#The NDS is as far as we know correctly calculated however but still when we try and link with restaurants it fails likely due to factors such as low review sentiment availibilty
+#as we didnt have a large set of labels and secondly our linking of recipe and cuisine is quite limited as we had a hard time matchinng and finding appropriate cuisines.
+# we also dont have average sentiments since our sentiment is a text literal we can only count therefore linking each recipe to its cuisine, plus restaurants serving it returns nothing
+
+PREFIX ex:   <http://kg-course/food-nutrition/>
+PREFIX sdo:  <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT
+  ?recipe
+  ?recipeName
+  ?nds
+  ?positiveCount
+  ?negativeCount
+  ?cuisine
+  ?cuisineLabel
+WHERE {
+  ##############################################################################
+  # 1) Sub-select: Compute NDS for each recipe & count positives/negatives
+  #    Then pick top 5 (descending by NDS).
+  ##############################################################################
+  {
+    SELECT
+      ?recipe
+      (SAMPLE(?name) AS ?recipeName)
+      (SAMPLE(?ndsVal) AS ?nds)
+      (COUNT(DISTINCT ?posReview) AS ?positiveCount)
+      (COUNT(DISTINCT ?negReview) AS ?negativeCount)
+    WHERE {
+      # Dish -> Recipe -> Nutrition
+      ?dish ex:hasRecipe ?recipe ;
+            ex:nutrition ?nutri .
+
+      # Retrieve macros
+      ?nutri sdo:proteinContent ?prot ;
+             sdo:fiberContent   ?fib ;
+             sdo:sugarContent   ?sug .
+
+      # BIND a numeric expression for NDS
+      BIND( (1.0 * ?prot + 1.5 * ?fib - 2.0 * ?sug) AS ?ndsVal )
+
+      # Basic recipe info
+      ?recipe sdo:name ?name .
+
+      # Positive reviews: no FILTER, just a direct match on the literal "positive"
+      OPTIONAL {
+        ?recipe sdo:review ?posReview .
+        ?posReview sdo:reviewRating "positive" .
+      }
+      # Negative reviews: direct match on the literal "negative"
+      OPTIONAL {
+        ?recipe sdo:review ?negReview .
+        ?negReview sdo:reviewRating "negative" .
+      }
+    }
+    GROUP BY ?recipe
+    ORDER BY DESC(?ndsVal)
+    LIMIT 5
+  }
+
+  ##############################################################################
+  # 2) Outer query: link each recipe to its cuisine, plus restaurants serving it
+  ##############################################################################
+  ?recipe ex:belongsToCuisine ?cuisine .
+  ?cuisine rdfs:label ?cuisineLabel .
+
+  OPTIONAL {
+    ?restaurant a sdo:Restaurant ;
+                sdo:legalName ?restaurantName ;
+                ex:hasCuisine ?cuisine ;
+                ex:avgRating ?restaurantRating .
+  }
+}

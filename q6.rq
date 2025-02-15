@@ -8,7 +8,7 @@ SELECT
   ?recipe
   ?name
   ?prepTime
-  ?sugarContent
+  (?sugarContent AS ?sugarContent_grams)
   (COUNT(?review) AS ?positiveReviewCount)
 WHERE {
   ?recipe a sdo:Recipe ;
